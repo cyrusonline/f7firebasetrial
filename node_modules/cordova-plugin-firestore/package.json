@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-firestore@1.3.0",
+        "scope": null,
+        "escapedName": "cordova-plugin-firestore",
+        "name": "cordova-plugin-firestore",
+        "rawSpec": "1.3.0",
+        "spec": "1.3.0",
+        "type": "version"
+      },
+      "C:\\f7project\\yrmentor2"
+    ]
+  ],
+  "_from": "cordova-plugin-firestore@1.3.0",
+  "_id": "cordova-plugin-firestore@1.3.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-firestore",
+  "_nodeVersion": "6.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-firestore_1.3.0_1534417398417_0.21935135522689864"
+  },
+  "_npmUser": {
+    "name": "reallysmallsoftware",
+    "email": "richard.windley@gmail.com"
+  },
+  "_npmVersion": "6.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-firestore@1.3.0",
+    "scope": null,
+    "escapedName": "cordova-plugin-firestore",
+    "name": "cordova-plugin-firestore",
+    "rawSpec": "1.3.0",
+    "spec": "1.3.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firestore/-/cordova-plugin-firestore-1.3.0.tgz",
+  "_shasum": "7184cf6175c718bf286a8d0f5d4ec14d92150e96",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-firestore@1.3.0",
+  "_where": "C:\\f7project\\yrmentor2",
+  "author": {
+    "name": "Richard Windley",
+    "email": "richard.windley@gmail.com",
+    "url": "http://www.reallysmall.co.uk"
+  },
+  "bugs": {
+    "url": "https://github.com/ReallySmallSoftware/cordova-plugin-firestore/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-firestore",
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  },
+  "dependencies": {},
+  "description": "A Google Firebase Firestore plugin",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-T2QWgYrA3ZcLg2Nx9JTgLR5j8Un4MBO6cKet5u4eeT7NG6pRW8Sx7KBg/48Rnc9Xxmx96wjY0WKCYFH6mYORXg==",
+    "shasum": "7184cf6175c718bf286a8d0f5d4ec14d92150e96",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-firestore/-/cordova-plugin-firestore-1.3.0.tgz",
+    "fileCount": 61,
+    "unpackedSize": 175931,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbdVn3CRA9TVsSAnZWagAA2RsP/jHG54p9zcMQMJowLXbj\n/cUsXkNArRosMNv5w1MWYBsK/Q3Bf0KKuyR/g6gEaBpug1vWNsulerXJSjyb\nwwxoNs6TGicceWiktK44RaezodvITvKAjWzAOJc5gPE6WMXSacPXBmi02u1q\nOcDcfDXgv8SD/t6dC7/cO+5TaS8C8pxhiOHAlvWJv4T/U4ik1UQK0bfpfYbM\nuZ45jxgY1wediI1eK6rN/0Tl1ErHsvTSx5uL6izpe/HjFQqalbBwUzAAGMKQ\n7cwEpdxEnW8gRlNEr8ZhnSRNgGHCPt+4Go+PcsLILUZwK1G+5IC4VAAAqUtK\nkq9a3qC7ZYP2y+gmW/X5B4NDPztF+ZTOLNNXAFpsKgeOVQlCSNleEzenbrY5\nEz20UH0nKK11uvstTTzzxrZie487pRnExCkpf3VmAuswsF1R15BSDcsK8zJi\nhr38DG8rtzGUXuBPXBLMDLtBelZi82xoQp8XCDoWgHVz5DY7qF4+hoyOp6Ds\nOvRZjgzQcJ1nHz5it8Rcw1HCKGWx9WPbop0rUzEYS+Tysy6dC7So+ct6mhl8\nIOzfjshQ+FPIl06ZFMr0OXtQDOmlShICGuZ71ip3h3mzR/stf4x9bJSAAIsC\nuFU/Y1dFFnIP0ckCJigRobJpED7KJUg8zbEiiK8RiIv+4O3pwoEPisrYTj9Q\nfHke\r\n=cCde\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.7": {
+        "cordova": ">=7.0.0",
+        "cordova-android": ">=5.0.0",
+        "cordova-ios": ">=4.0.0"
+      }
+    }
+  },
+  "gitHead": "43020bdac2e49cc7ddc109cbd8144b1381c276f7",
+  "homepage": "https://github.com/ReallySmallSoftware/cordova-plugin-firestore",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "reallysmallsoftware",
+      "email": "richard.windley@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-firestore",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReallySmallSoftware/cordova-plugin-firestore.git"
+  },
+  "version": "1.3.0"
+}

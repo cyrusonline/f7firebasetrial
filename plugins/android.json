@@ -1,0 +1,17 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-firestore": {
+      "ANDROID_FIREBASE_CORE_VERSION": "16.0.0",
+      "ANDROID_FIREBASE_FIRESTORE_VERSION": "17.0.1",
+      "PACKAGE_NAME": "com.phonegap.myapp"
+    }
+  },
+  "dependent_plugins": {}
+}
