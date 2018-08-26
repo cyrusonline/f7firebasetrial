@@ -10,10 +10,8 @@
     </f7-navbar>
     <f7-block-title>{{ title }}</f7-block-title>
     <f7-block inner>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Distinctio est aliquam officiis quaerat placeat, cum explicabo magni
-      soluta totam maxime autem minima accusamus eos suscipit dignissimos
-      corporis modi voluptatum fugiat!
+      <pre>{{lectures}}</pre>
+     
     </f7-block>
   </f7-page>
 </template>
@@ -22,10 +20,11 @@ export default {
   name: 'Home',
   data() {
     return {
-      title: 'Hello World'
+      title: 'Hello World',
+      lectures:''
     };
   },
-  created(){
+  async created(){
     var options = {
     "datePrefix": '__DATE:',
     "fieldValueDelete": "__DELETE",
@@ -37,15 +36,17 @@ export default {
     }
   };
 
- 
+ var db = null;
 
-  var db = Firestore.initialise(options).then(function(database) {
-    // myDatabaseReference = database;
+   await Firestore.initialise(options).then(function(database) {
+     db = database
+
     console.log('alert')
     console.log(database)
-  });
-
- db.collection('lectures').orderBy('name').get().then
+  })
+  
+  // var a = db.collection('lectures')
+  var a =   db.collection('lectures').orderBy('name').get().then
         (querySnapshot =>{
             querySnapshot.forEach(doc=>{
                
@@ -61,6 +62,16 @@ export default {
             })
 
         })
+  
+  console.log(a)
+ var b= window.Firestore.collection('lectures')
+ console.log(b)
+
+
+  // const firestore =  Firestore.initialise(options);
+  
+
+
 
   }
 };
